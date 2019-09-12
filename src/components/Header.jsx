@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Header = () => {
   var emojiStyles = {
     fontSize: "100px"
-  }
+  };
   return (
     <div>
       <span style={emojiStyles}>🍔 🛁 👋</span>

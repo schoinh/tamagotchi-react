@@ -4,14 +4,14 @@ const Buttons = () => {
   var buttonStyles = {
     fontSize: "50px",
     marginRight: "20px"
-  }
+  };
 
   return (
     <div>
       <hr />
-      <button style={buttonStyles} onClick={() => { }}>⇦</button>
-      <button style={buttonStyles} onClick={() => { }}>⇨</button>
-      <button style={buttonStyles} onClick={() => { }}>O</button>
+      <button className="btn btn-primary" style={buttonStyles} onClick={() => { }}>⇦</button>
+      <button className="btn btn-primary" style={buttonStyles} onClick={() => { }}>⇨</button>
+      <button className="btn btn-primary" style={buttonStyles} onClick={() => { }}>O</button>
     </div>
   );
 };

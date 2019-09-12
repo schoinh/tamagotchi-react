@@ -9,7 +9,7 @@ import Buttons from "./Buttons";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <GameScreen />
       <Buttons />
       {/* <Switch>
