@@ -1,4 +1,6 @@
 import React from "react";
+import GameScreen from "./GameScreen";
+import Buttons from "./Buttons";
 // import { Switch, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
 // import Header from "./Header";
@@ -8,6 +10,8 @@ import React from "react";
 function App() {
   return (
     <div>
+      <GameScreen />
+      <Buttons />
       {/* <Switch>
         <Route exact path='/' component={TicketList} />
         <Route path='/newticket' component={NewTicketForm} />
